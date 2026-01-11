@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - DPMPTSP Provinsi Sumatera Utara</title>
+
+  <link rel="shorcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/LOGO-PROVINSI-SUMATERA-UTARA.png/960px-LOGO-PROVINSI-SUMATERA-UTARA.png?20250503101724">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Bootstrap Icons (fallback) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Tailwind Custom Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#063',
+            secondary: '#f39f1e',
+            dark: '#282828'
+          },
+          fontFamily: {
+            sans: [
+              'ui-sans-serif',
+              'system-ui',
+              'sans-serif',
+              'Apple Color Emoji',
+              'Segoe UI Emoji',
+              'Segoe UI Symbol',
+              'Noto Color Emoji'
+            ]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-size: 14px;
+    }
+    .animate-fade-in {
+      animation: fadeIn 0.8s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body class="font-sans text-dark bg-gray-50">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="bg-primary text-white sticky top-0 z-50 shadow-lg">
+    <div class="max-w-[72rem] mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center text-primary font-bold">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/LOGO-PROVINSI-SUMATERA-UTARA.png/960px-LOGO-PROVINSI-SUMATERA-UTARA.png?20250503101724" alt="">
+        </div>
+        <div>
+          <h1 class="font-semibold leading-tight">
+            DPMPTSP Provinsi Sumatera Utara
+          </h1>
+          <p class="text-xs opacity-80">
+            Penanaman Modal & Pelayanan Terpadu Satu Pintu
+          </p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="#beranda" class="hover:text-secondary transition">Beranda</a>
+        <a href="#profil" class="hover:text-secondary transition">Profil</a>
+        <a href="#layanan" class="hover:text-secondary transition">Layanan</a>
+        <a href="#investasi" class="hover:text-secondary transition">Investasi</a>
+        <a href="#berita" class="hover:text-secondary transition">Berita</a>
+        <a href="#kontak" class="hover:text-secondary transition">Kontak</a>
+      </nav>
+
+      <a href="#" class="hidden md:inline-flex items-center gap-2 bg-secondary text-dark px-4 py-2 rounded-lg font-medium hover:bg-yellow-500 transition">
+        <i data-feather="log-in" class="w-4 h-4"></i>
+        OSS Perizinan
+      </a>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="beranda" class="bg-primary text-white">
+    <div class="max-w-[72rem] mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+      <div class="animate-fade-in">
+        <h2 class="text-4xl font-bold leading-tight mb-6">
+          Mendorong Investasi, <br>
+          Mempermudah Perizinan di <span class="text-secondary">Sumatera Utara</span>
+        </h2>
+        <p class="opacity-90 mb-8 text-lg">
+          Pelayanan perizinan dan penanaman modal yang cepat, transparan,
+          dan terintegrasi berbasis digital untuk mewujudkan iklim investasi yang kondusif.
+        </p>
+        <div class="flex flex-col md:flex gap-4">
+          <a href="#" class="bg-secondary text-dark px-9 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition text-center">
+            Ajukan Perizinan
+          </a>
+          <a href="#investasi" class="px-9 py-3 rounded-lg hover:bg-white hover:text-primary transition text-center">
+            Peta Investasi
+          </a>
+        </div>
+      </div>
+
+      <div class="hidden md:block">
+        <div class="bg-white/10 p-6 text-center backdrop-blur-sm">
+          <img src="images/peta-investasi.png">
+          <p class="mt-4 opacity-90 text-lg font-medium">
+            Potensi Investasi Strategis di 33 Kabupaten/Kota
+          </p>
+          <p class="mt-2 opacity-75 text-sm">
+            Dengan berbagai sektor unggulan yang siap dikembangkan
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATISTIK ================= -->
+  <section class="bg-white py-16 shadow-sm">
+    <div class="max-w-[72rem] mx-auto px-6">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-primary mb-2">1900+</div>
+          <p class="text-gray-600">Izin Terbit 2025</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-primary mb-2">Rp 42,3 T</div>
+          <p class="text-gray-600">Nilai Investasi 2025</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-primary mb-2">600.000+</div>
+          <p class="text-gray-600">Investor Terdaftar</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-primary mb-2">90%</div>
+          <p class="text-gray-600">Kepuasan Layanan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROFIL ================= -->
+  <section id="profil" class="py-20">
+    <div class="max-w-[72rem] mx-auto px-6 grid md:grid-cols-2 gap-12">
+      <div>
+        <h3 class="text-3xl font-bold mb-6">
+          Tentang DPMPTSP Sumatera Utara
+        </h3>
+        <p class="mb-4 text-gray-700 leading-relaxed">
+          Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu
+          Provinsi Sumatera Utara bertugas menyelenggarakan pelayanan
+          perizinan dan penanaman modal secara terintegrasi dengan prinsip
+          koordinasi, integrasi, sinkronisasi, simplifikasi, keamanan, dan kepastian.
+        </p>
+        <p class="mb-6 text-gray-700 leading-relaxed">
+          Kami berkomitmen untuk menciptakan iklim investasi yang kondusif melalui
+          pelayanan perizinan yang efisien, transparan, dan akuntabel.
+        </p>
+        <ul class="space-y-3">
+          <li class="flex items-center gap-3">
+            <i data-feather="check-circle" class="text-primary w-5 h-5"></i>
+            <span>Pelayanan Terpadu Satu Pintu</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <i data-feather="check-circle" class="text-primary w-5 h-5"></i>
+            <span>Dukungan Investasi Daerah</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <i data-feather="check-circle" class="text-primary w-5 h-5"></i>
+            <span>Digitalisasi Perizinan</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <i data-feather="check-circle" class="text-primary w-5 h-5"></i>
+            <span>Promosi dan Fasilitasi Investasi</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <i data-feather="check-circle" class="text-primary w-5 h-5"></i>
+            <span>Pengawasan dan Pengendalian Perizinan</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-primary/5 rounded-2xl p-10 flex items-center justify-center">
+        <div class="text-center">
+          <i data-feather="briefcase" class="w-24 h-24 text-primary mx-auto mb-4"></i>
+          <h4 class="font-semibold text-lg mb-2">Visi Kami</h4>
+          <p class="text-gray-600">
+            Mewujudkan Pelayanan Perizinan dan Penanaman Modal yang Profesional, Transparan, dan Akuntabel
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LAYANAN ================= -->
+  <section id="layanan" class="bg-gray-100 py-20">
+    <div class="max-w-[72rem] mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-4">
+        Layanan Unggulan
+      </h3>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        Kami menyediakan berbagai layanan perizinan dan investasi yang terintegrasi untuk kemudahan Anda
+      </p>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div class="bg-white rounded-xl p-6 hover:shadow-lg transition">
+          <i data-feather="file-text" class="text-primary mb-4 w-10 h-10"></i>
+          <h4 class="font-semibold mb-2 text-lg">Perizinan Usaha</h4>
+          <p class="text-gray-600">Pengajuan dan penerbitan izin usaha terintegrasi melalui sistem OSS.</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 hover:shadow-lg transition">
+          <i data-feather="trending-up" class="text-primary mb-4 w-10 h-10"></i>
+          <h4 class="font-semibold mb-2 text-lg">Penanaman Modal</h4>
+          <p class="text-gray-600">Fasilitasi dan pengawasan investasi daerah untuk pertumbuhan ekonomi.</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 hover:shadow-lg transition">
+          <i data-feather="search" class="text-primary mb-4 w-10 h-10"></i>
+          <h4 class="font-semibold mb-2 text-lg">Tracking Izin</h4>
+          <p class="text-gray-600">Pantau status perizinan Anda secara real-time dan transparan.</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 hover:shadow-lg transition">
+          <i data-feather="message-circle" class="text-primary mb-4 w-10 h-10"></i>
+          <h4 class="font-semibold mb-2 text-lg">Pengaduan</h4>
+          <p class="text-gray-600">Layanan pengaduan dan konsultasi untuk masyarakat dan investor.</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 hover:shadow-lg transition">
+          <i data-feather="users" class="text-primary mb-4 w-10 h-10"></i>
+          <h4 class="font-semibold mb-2 text-lg">Konsultasi Investasi</h4>
+          <p class="text-gray-600">Konsultasi gratis mengenai peluang investasi dan persyaratan perizinan di Sumatera Utara.</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 hover:shadow-lg transition">
+          <i data-feather="book-open" class="text-primary mb-4 w-10 h-10"></i>
+          <h4 class="font-semibold mb-2 text-lg">Informasi Regulasi</h4>
+          <p class="text-gray-600">Akses informasi lengkap mengenai peraturan dan kebijakan perizinan terkini.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INVESTASI ================= -->
+  <section id="investasi" class="py-20">
+    <div class="max-w-[72rem] mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-4">
+        Potensi Investasi Sumatera Utara
+      </h3>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        Sumatera Utara menawarkan beragam sektor unggulan dengan potensi investasi yang menjanjikan
+      </p>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+          <img src="https://asset.kompas.com/crops/9msCFl_CBDDEwpA-qD3V37xdIP4=/0x0:780x520/1200x800/data/photo/2021/11/17/6194adcbbd9b6.jpg" class="mb-4 rounded-md h-[16rem] object-cover">
+          <h4 class="font-bold mb-2 text-lg">Perkebunan & Pertanian</h4>
+          <p class="text-gray-700 mb-4">Kelapa sawit, karet, kakao, dan hasil pertanian lainnya dengan lahan produktif yang luas.</p>
+          <div class="text-sm text-primary font-medium">Potensi: Sangat Tinggi</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+          <img src="https://web.pln.co.id/statics/uploads/2020/03/PLN-PLTP-Sorik-Merapi-jancuk.jpeg" class="mb-4 rounded-md h-[16rem] object-cover">
+          <h4 class="font-bold mb-2 text-lg">Energi & Pertambangan</h4>
+          <p class="text-gray-700 mb-4">Potensi energi terbarukan dan sumber daya mineral yang melimpah.</p>
+          <div class="text-sm text-primary font-medium">Potensi: Tinggi</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+          <img src="https://ik.imagekit.io/tvlk/blog/2025/01/shutterstock_2278635537.jpg?tr=q-70,c-at_max,w-1000,h-600" class="mb-4 rounded-md h-[16rem] object-cover">
+          <h4 class="font-bold mb-2 text-lg">Pariwisata</h4>
+          <p class="text-gray-700 mb-4">Destinasi wisata alam, budaya, dan kuliner yang beragam di Danau Toba dan sekitarnya.</p>
+          <div class="text-sm text-primary font-medium">Potensi: Sangat Tinggi</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
+          <img src="https://www.tobasatu.com/wp-content/uploads/2020/12/Areal-Sei-Mangkei.jpg" class="mb-4 rounded-md h-[16rem] object-cover">
+          <h4 class="font-bold mb-2 text-lg">Industri Manufaktur</h4>
+          <p class="text-gray-700 mb-4">Industri pengolahan hasil perkebunan, makanan-minuman, dan tekstil.</p>
+          <div class="text-sm text-primary font-medium">Potensi: Tinggi</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 border border-red-200">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXWdEp3jwfIJHlfvNOA6ORS8OnWEy5aa6LICkSq9kQKf8N0omHhRQb8ddCkhEtsgFmHY3L6JjqVYdafK39TqlTgjWhRP6vir4i1XxYtkmywY9Bykqciug830CsFtEZ4t8LINI-Ne3JehHu/s400/pelabuhan-belawan.JPG" class="mb-4 rounded-md h-[16rem] object-cover">
+          <h4 class="font-bold mb-2 text-lg">Perikanan & Kelautan</h4>
+          <p class="text-gray-700 mb-4">Perikanan tangkap, budidaya, dan pengolahan hasil laut dengan garis pantai yang panjang.</p>
+          <div class="text-sm text-primary font-medium">Potensi: Tinggi</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-xl p-6 border border-yellow-200">
+          <img src="https://akcdn.detik.net.id/community/media/visual/2023/08/26/pengunjung-saat-scan-qris-di-medan-digifestival_169.jpeg?w=700&q=90" class="mb-4 rounded-md h-[16rem] object-cover">
+          <h4 class="font-bold mb-2 text-lg">Ekonomi Digital</h4>
+          <p class="text-gray-700 mb-4">Startup teknologi, e-commerce, dan layanan digital yang berkembang pesat.</p>
+          <div class="text-sm text-primary font-medium">Potensi: Berkembang</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BERITA ================= -->
+  <section id="berita" class="bg-gray-100 py-20">
+    <div class="max-w-[72rem] mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">
+        Berita & Pengumuman Terkini
+      </h3>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+          <div class="h-48 bg-primary/10 flex items-center justify-center">
+            <i data-feather="file-text" class="w-16 h-16 text-primary"></i>
+          </div>
+          <div class="p-6">
+            <div class="text-xs text-gray-500 mb-2">10 Januari 2026</div>
+            <h4 class="font-semibold mb-2 text-lg">Pembaruan Sistem OSS Nasional</h4>
+            <p class="text-gray-600 mb-4">Sistem OSS telah diperbarui dengan fitur baru untuk kemudahan pengajuan perizinan berusaha.</p>
+            <a href="#" class="text-primary font-medium hover:text-secondary">Baca Selengkapnya →</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+          <div class="h-48 bg-secondary/10 flex items-center justify-center">
+            <i data-feather="award" class="w-16 h-16 text-secondary"></i>
+          </div>
+          <div class="p-6">
+            <div class="text-xs text-gray-500 mb-2">8 Januari 2026</div>
+            <h4 class="font-semibold mb-2 text-lg">Penghargaan Pelayanan Publik</h4>
+            <p class="text-gray-600 mb-4">DPMPTSP Sumut meraih penghargaan pelayanan publik terbaik tingkat nasional tahun 2025.</p>
+            <a href="#" class="text-primary font-medium hover:text-secondary">Baca Selengkapnya →</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+          <div class="h-48 bg-green-50 flex items-center justify-center">
+            <i data-feather="users" class="w-16 h-16 text-primary"></i>
+          </div>
+          <div class="p-6">
+            <div class="text-xs text-gray-500 mb-2">5 Januari 2026</div>
+            <h4 class="font-semibold mb-2 text-lg">Sosialisasi Investasi 2026</h4>
+            <p class="text-gray-600 mb-4">Agenda sosialisasi peluang investasi dan kemudahan perizinan untuk pelaku usaha.</p>
+            <a href="#" class="text-primary font-medium hover:text-secondary">Baca Selengkapnya →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-8">
+        <a href="#" class="inline-block bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition">
+          Lihat Semua Berita
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">
+        Pertanyaan yang Sering Diajukan
+      </h3>
+
+      <div class="space-y-4">
+        <details class="bg-white rounded-lg shadow-sm p-6 group">
+          <summary class="font-semibold cursor-pointer flex items-center justify-between">
+            Bagaimana cara mengajukan perizinan usaha?
+            <i data-feather="chevron-down" class="w-5 h-5 text-gray-400 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-4 text-gray-600 leading-relaxed">
+            Anda dapat mengajukan perizinan usaha melalui sistem OSS (Online Single Submission) di website resmi oss.go.id. Sistem ini terintegrasi dengan layanan DPMPTSP untuk proses yang lebih cepat dan efisien.
+          </p>
+        </details>
+
+        <details class="bg-white rounded-lg shadow-sm p-6 group">
+          <summary class="font-semibold cursor-pointer flex items-center justify-between">
+            Berapa lama waktu proses penerbitan izin?
+            <i data-feather="chevron-down" class="w-5 h-5 text-gray-400 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-4 text-gray-600 leading-relaxed">
+            Waktu proses bervariasi tergantung jenis perizinan. Untuk NIB (Nomor Induk Berusaha) dapat terbit secara instan, sedangkan izin operasional memerlukan waktu 3-7 hari kerja setelah dokumen lengkap.
+          </p>
+        </details>
+
+        <details class="bg-white rounded-lg shadow-sm p-6 group">
+          <summary class="font-semibold cursor-pointer flex items-center justify-between">
+            Apakah ada biaya untuk pengurusan perizinan?
+            <i data-feather="chevron-down" class="w-5 h-5 text-gray-400 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-4 text-gray-600 leading-relaxed">
+            Sebagian besar layanan perizinan di DPMPTSP tidak dipungut biaya. Namun, beberapa jenis izin tertentu mungkin dikenakan retribusi sesuai dengan peraturan daerah yang berlaku.
+          </p>
+        </details>
+
+        <details class="bg-white rounded-lg shadow-sm p-6 group">
+          <summary class="font-semibold cursor-pointer flex items-center justify-between">
+            Bagaimana cara melacak status pengajuan izin saya?
+            <i data-feather="chevron-down" class="w-5 h-5 text-gray-400 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-4 text-gray-600 leading-relaxed">
+            Anda dapat melacak status perizinan melalui dashboard OSS menggunakan akun yang telah didaftarkan. Status akan diperbarui secara real-time sesuai progres pengurusan.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KONTAK ================= -->
+  <section id="kontak" class="bg-primary text-white py-20">
+    <div class="max-w-[72rem] mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">
+        Hubungi Kami
+      </h3>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h4 class="text-xl font-semibold mb-6">Informasi Kontak</h4>
+          
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <i data-feather="map-pin" class="w-6 h-6 text-secondary mt-1"></i>
+              <div>
+                <div class="font-medium mb-1">Alamat</div>
+                <p class="opacity-90">
+                  Jl. K.H. Wahid Hasyim No.8A, Merdeka,<br/>
+                  Kec. Medan Baru, Kota Medan,<br/>
+                  Sumatera Utara 20154
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <i data-feather="phone" class="w-6 h-6 text-secondary mt-1"></i>
+              <div>
+                <div class="font-medium mb-1">Telepon</div>
+                <p class="opacity-90">(061) 451-4614 — (061) 457-2953</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <i data-feather="mail" class="w-6 h-6 text-secondary mt-1"></i>
+              <div>
+                <div class="font-medium mb-1">Email</div>
+                <p class="opacity-90">dpmptsp@sumutprov.go.id</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <i data-feather="clock" class="w-6 h-6 text-secondary mt-1"></i>
+              <div>
+                <div class="font-medium mb-1">Jam Pelayanan</div>
+                <p class="opacity-90">Senin - Jumat: 09.00 - 15.00 WIB</p>
+                <p class="opacity-90 text-sm">(Kecuali hari libur nasional)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-semibold mb-6">Kirim Pesan</h4>
+          
+          <form class="space-y-4">
+            <div>
+              <input type="text" placeholder="Nama Lengkap" class="w-full px-4 py-3 rounded-lg text-dark">
+            </div>
+            <div>
+              <input type="email" placeholder="Email" class="w-full px-4 py-3 rounded-lg text-dark">
+            </div>
+            <div>
+              <input type="tel" placeholder="Nomor Telepon" class="w-full px-4 py-3 rounded-lg text-dark">
+            </div>
+            <div>
+              <textarea rows="4" placeholder="Pesan Anda" class="w-full px-4 py-3 rounded-lg text-dark"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-secondary text-dark px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition">
+              Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-dark text-white py-10">
+    <div class="max-w-[72rem] mx-auto px-6 grid md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="font-semibold mb-4">Link Cepat</h4>
+        <ul class="space-y-2 opacity-80 text-sm">
+          <li><a href="#profil" class="hover:text-secondary transition">Profil</a></li>
+          <li><a href="#layanan" class="hover:text-secondary transition">Layanan</a></li>
+          <li><a href="#investasi" class="hover:text-secondary transition">Investasi</a></li>
+          <li><a href="#berita" class="hover:text-secondary transition">Berita</a></li>
+          <li><a href="#" class="hover:text-secondary transition">OSS</a></li>
+          <li><a href="#kontak" class="hover:text-secondary transition">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-4">Layanan Online</h4>
+        <ul class="space-y-2 opacity-80 text-sm">
+          <li><a href="#" class="hover:text-secondary transition">OSS RBA</a></li>
+          <li><a href="#" class="hover:text-secondary transition">Tracking Perizinan</a></li>
+          <li><a href="#" class="hover:text-secondary transition">Portal Investasi</a></li>
+          <li><a href="#" class="hover:text-secondary transition">Pengaduan Online</a></li>
+          <li><a href="#" class="hover:text-secondary transition">Survei Kepuasan</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-4">Kontak</h4>
+        <div class="space-y-2 opacity-80 text-sm">
+          <p>Jl. K.H. Wahid Hasyim No.8A</p>
+          <p>Medan Baru, Kota Medan</p>
+          <p>Sumatera Utara 20154</p>
+          <p class="pt-2">Tel: (061) 451-4614</p>
+          <p>Tel: (061) 457-2953</p>
+          <p class="pt-2">Email: dpmptsp@sumutprov.go.id</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-[72rem] mx-auto px-6 mt-10 pt-8 border-t border-gray-700">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-sm opacity-60">
+          © 2026 DPMPTSP Provinsi Sumatera Utara. All rights reserved.
+        </div>
+        <div class="flex gap-4">
+          <a href="#" class="opacity-60 hover:opacity-100 transition">
+            <i data-feather="facebook" class="w-5 h-5"></i>
+          </a>
+          <a href="#" class="opacity-60 hover:opacity-100 transition">
+            <i data-feather="twitter" class="w-5 h-5"></i>
+          </a>
+          <a href="#" class="opacity-60 hover:opacity-100 transition">
+            <i data-feather="instagram" class="w-5 h-5"></i>
+          </a>
+          <a href="#" class="opacity-60 hover:opacity-100 transition">
+            <i data-feather="youtube" class="w-5 h-5"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Feather Init -->
+  <script>
+    feather.replace()
+  </script>
+
+</body>
+</html>
